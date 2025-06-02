@@ -25,6 +25,18 @@ require('lazy').setup({
 
   require 'kickstart/plugins/gitsigns',
 
+  require 'kickstart/plugins/copilot',
+
+  require 'kickstart/plugins/copilotchat',
+
+  require 'kickstart/plugins/vimux',
+
+  require 'kickstart/plugins/yazi',
+
+  require 'kickstart/plugins/noice',
+
+  require 'kickstart/plugins/augment',
+
   require 'kickstart/plugins/which-key',
 
   require 'kickstart/plugins/telescope',
