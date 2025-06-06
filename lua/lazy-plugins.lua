@@ -25,6 +25,10 @@ require('lazy').setup({
 
   require 'kickstart/plugins/gitsigns',
 
+  require 'kickstart/plugins/harpoon',
+
+  -- require 'kickstart/plugins/dap',
+
   require 'kickstart/plugins/copilot',
 
   require 'kickstart/plugins/copilotchat',
@@ -35,7 +39,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/noice',
 
-  require 'kickstart/plugins/augment',
+  -- require 'kickstart/plugins/augment',
 
   require 'kickstart/plugins/which-key',
 
@@ -47,7 +51,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/blink-cmp',
 
-  require 'kickstart/plugins/tokyonight',
+  require 'kickstart/plugins/colorscheme',
 
   require 'kickstart/plugins/todo-comments',
 
