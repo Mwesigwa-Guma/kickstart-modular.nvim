@@ -4,7 +4,6 @@
 --    :Lazy
 --
 --  You can press `?` in this menu for help. Use `:q` to close the window
---
 --  To update plugins you can run
 --    :Lazy update
 --
@@ -25,6 +24,8 @@ require('lazy').setup({
 
   require 'kickstart/plugins/prettier',
 
+  require 'kickstart/plugins/flash',
+
   require 'kickstart/plugins/gitsigns',
 
   require 'kickstart/plugins/harpoon',
@@ -35,7 +36,7 @@ require('lazy').setup({
 
   require 'kickstart/plugins/copilotchat',
 
-  require 'kickstart/plugins/vimux',
+  -- require 'kickstart/plugins/vimux',
 
   require 'kickstart/plugins/yazi',
 
