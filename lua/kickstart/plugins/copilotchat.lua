@@ -152,11 +152,11 @@ return {
         desc = 'CopilotChat - Prompt actions',
       },
       -- Code related commands
-      { '<leader>ae', '<cmd>CopilotChatExplain<cr>', desc = 'CopilotChat - Explain code' },
-      { '<leader>at', '<cmd>CopilotChatTests<cr>', desc = 'CopilotChat - Generate tests' },
-      { '<leader>ar', '<cmd>CopilotChatReview<cr>', desc = 'CopilotChat - Review code' },
-      { '<leader>aR', '<cmd>CopilotChatRefactor<cr>', desc = 'CopilotChat - Refactor code' },
-      { '<leader>an', '<cmd>CopilotChatBetterNamings<cr>', desc = 'CopilotChat - Better Naming' },
+      { '<leader>ae', '<cmd>CopilotChatExplain<cr>', mode = 'x', desc = 'CopilotChat - Explain code' },
+      { '<leader>at', '<cmd>CopilotChatTests<cr>', mode = 'x', desc = 'CopilotChat - Generate tests' },
+      { '<leader>ar', '<cmd>CopilotChatReview<cr>', mode = 'x', desc = 'CopilotChat - Review code' },
+      { '<leader>aR', '<cmd>CopilotChatRefactor<cr>', mode = 'x', desc = 'CopilotChat - Refactor code' },
+      { '<leader>an', '<cmd>CopilotChatBetterNamings<cr>', mode = 'x', desc = 'CopilotChat - Better Naming' },
       -- Chat with Copilot in visual mode
       {
         '<leader>av',
@@ -203,7 +203,7 @@ return {
       -- Clear buffer and chat history
       { '<leader>al', '<cmd>CopilotChatReset<cr>', desc = 'CopilotChat - Clear buffer and chat history' },
       -- Toggle Copilot Chat Vsplit
-      { '<leader>av', '<cmd>CopilotChatToggle<cr>', desc = 'CopilotChat - Toggle' },
+      { '<leader>at', '<cmd>CopilotChatToggle<cr>', desc = 'CopilotChat - Toggle' },
       -- Copilot Chat Models
       { '<leader>a?', '<cmd>CopilotChatModels<cr>', desc = 'CopilotChat - Select Models' },
       -- Copilot Chat Agents
